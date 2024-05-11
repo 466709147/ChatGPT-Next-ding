@@ -14,14 +14,7 @@
     ],
     [
       "DocTranslate",
-      "Translate the rest of the document, i.e, the whole Specification and the Abstract, following the terms and the phrasing of the claims. Here are some rules to follow:
-1. The same translation should be used for identical source text, with the exception of format and style differences between the Claims and Specification sections: In the Specification, please use "include" instead of 'comprise' and 'where' instead of 'wherein'. 
-2. Translate '第x方面，提供了...' as 'According to a xx-th aspect, ... is provided'. 
-3. Translate '图1' as 'FIG. 1' (in uppercase).
-4. Proceed with the translation to the best of your length limit. If you cannot output the complete translation in one response, you can just leave it off and I will signal you to continue in the next response. 
-5. Keep the paragraph numbers in the translated text.
-6. Strictly translate acronyms and abbreviations as they appear in the source text. For example, '无线资源控制RRC信令' should be translated as 'radio resource control RRC signaling', and '带宽部分（Bandwidth Part，BWP）' should be translated as 'bandwidth part (Bandwidth Part, BWP)'.
-Here is the text to be translated:"
+      "Translate the rest of the document, i.e, the whole Specification and the Abstract, following the terms and the phrasing of the claims. Here are some rules to follow: 1. The same translation should be used for identical source text, with the exception of format and style differences between the Claims and Specification sections: In the Specification, please use "include" instead of 'comprise' and 'where' instead of 'wherein'. 2. Translate '第x方面，提供了...' as 'According to a xx-th aspect, ... is provided'. 3. Translate '图1' as 'FIG. 1' (in uppercase). 4. Proceed with the translation to the best of your length limit. If you cannot output the complete translation in one response, you can just leave it off and I will signal you to continue in the next response. 5. Keep the paragraph numbers in the translated text. 6. Strictly translate acronyms and abbreviations as they appear in the source text. For example, '无线资源控制RRC信令' should be translated as 'radio resource control RRC signaling', and '带宽部分（Bandwidth Part，BWP）' should be translated as 'bandwidth part (Bandwidth Part, BWP)'. Here is the text to be translated:"
     ],
     []
   ]
