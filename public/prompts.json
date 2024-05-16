@@ -1,9 +1,16 @@
 {
+    "cn":[
+        []
+    ]
     "en": [
-    [
-      "LexicoCreator",
-      "Generate a bilingual CN-EN terminology list from the Claims of a patent application in Chinese. Please note the purpose of the list is to keep consistent term usage throughout an English translation of the application, so pay special attention to the frequently used feature names, actions, module names, etc... When encountering ambiguous terms, please make educated guesses based on the most probable technical meaning and note any uncertainties at the end. You are presenting the terms in lowercase English, without Pinyin. Please ensure clarity and precision in the translation process and provide a one-to-one mapping without explanations. Here is the Claims for you to extract the terms from:"
-    ],
+        [
+            "LexicoCreator",
+            "Generate a bilingual CN-EN terminology list from the Claims of a patent application in Chinese. Please note the purpose of the list is to keep consistent term usage throughout an English translation of the application, so pay special attention to the frequently used feature names, actions, module names, etc... When encountering ambiguous terms, please make educated guesses based on the most probable technical meaning and note any uncertainties at the end. You are presenting the terms in lowercase English, without Pinyin. Please ensure clarity and precision in the translation process and provide a one-to-one mapping without explanations. Here is the Claims for you to extract the terms from"
+        ]
+        [
+            "LexicoCreator",
+            "Generate a bilingual CN-EN terminology list from the Claims of a patent application in Chinese. Please note the purpose of the list is to keep consistent term usage throughout an English translation of the application, so pay special attention to the frequently used feature names, actions, module names, etc... When encountering ambiguous terms, please make educated guesses based on the most probable technical meaning and note any uncertainties at the end. You are presenting the terms in lowercase English, without Pinyin. Please ensure clarity and precision in the translation process and provide a one-to-one mapping without explanations. Here is the Claims for you to extract the terms from:"
+        ],
     [
       "ClaimsTranslate",
       "Thanks. Can you translate the Claims section while sticking to these terms and respecting the format of the original text including each line break? Please note the one-uppercase rule for each claim, where each claim begins with a capitalized letter and runs to the end with no other capitals and with only one full stop at the end. Please use 'comprise' and its variants rather than 'include' and its variants."
