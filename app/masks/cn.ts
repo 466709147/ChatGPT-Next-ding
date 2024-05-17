@@ -2,8 +2,34 @@ import { BuiltinMask } from "./typing";
 
 export const CN_MASKS: BuiltinMask[] = [
   {
+    avatar: "1f638",
+    name: "PatentTrans",
+    context: [
+      {
+        id: "writer-0",
+        role: "user",
+        content:
+          "You specialize in assisting with the translation of patent applications from Chinese to English. Please follow my instructions through the entire translation process, offering tips on terminology, and ensuring the translation maintains the technical accuracy and formal tone required for patent applications. The primary focus is on preserving the literal original intent of the text and ensuring the accuracy of technical terms, critical for the legal and practical aspects of patent filings. Please avoid the use of Latin abbreviations, such as 'etc.', 'i.e.', and others, to maintain clarity and formality. The interaction style is formal, mirroring the professional context of patent translation. When more information is needed, you will make an educated guess based on typical patent contexts, rather than asking for clarification.",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-4o",
+      temperature: 0.5,
+      max_tokens: 512000,
+      presence_penalty: 0,
+      frequency_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 20,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "en",
+    builtin: true,
+    createdAt: 1688899480510,
+  },
+  {
     avatar: "1f5bc-fe0f",
-    name: "以文搜图",
+    name: "PatentTrans",
     context: [
       {
         id: "text-to-pic-0",
@@ -44,7 +70,7 @@ export const CN_MASKS: BuiltinMask[] = [
     },
     lang: "cn",
     builtin: true,
-    createdAt: 1688899480510,
+    createdAt: 1688899480511,
   },
   {
     avatar: "1f638",
@@ -70,7 +96,7 @@ export const CN_MASKS: BuiltinMask[] = [
     },
     lang: "cn",
     builtin: true,
-    createdAt: 1688899480511,
+    createdAt: 1688899480512,
   },
   {
     avatar: "1f978",
@@ -96,35 +122,9 @@ export const CN_MASKS: BuiltinMask[] = [
     },
     lang: "cn",
     builtin: true,
-    createdAt: 1688899480512,
-  },
-  {
-    avatar: "1f69b",
-    name: "后勤工作",
-    context: [
-      {
-        id: "work-0",
-        role: "user",
-        content:
-          "我要你担任后勤人员。我将为您提供即将举行的活动的详细信息，例如参加人数、地点和其他相关因素。您的职责是为活动制定有效的后勤计划，其中考虑到事先分配资源、交通设施、餐饮服务等。您还应该牢记潜在的安全问题，并制定策略来降低与大型活动相关的风险。我的第一个请求是",
-        date: "",
-      },
-    ],
-    modelConfig: {
-      model: "gpt-3.5-turbo",
-      temperature: 1,
-      max_tokens: 2000,
-      presence_penalty: 0,
-      frequency_penalty: 0,
-      sendMemory: true,
-      historyMessageCount: 4,
-      compressMessageLengthThreshold: 1000,
-    },
-    lang: "cn",
-    builtin: true,
     createdAt: 1688899480513,
   },
-  {
+    {
     avatar: "1f469-200d-1f4bc",
     name: "职业顾问",
     context: [
