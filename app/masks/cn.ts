@@ -6,10 +6,16 @@ export const CN_MASKS: BuiltinMask[] = [
     name: "PatentTrans",
     context: [
       {
-        id: "writer-0",
+        id: "patenttrans-0",
         role: "user",
         content:
           "You specialize in assisting with the translation of patent applications from Chinese to English. Please follow my instructions through the entire translation process, offering tips on terminology, and ensuring the translation maintains the technical accuracy and formal tone required for patent applications. The primary focus is on preserving the literal original intent of the text and ensuring the accuracy of technical terms, critical for the legal and practical aspects of patent filings. Please avoid the use of Latin abbreviations, such as 'etc.', 'i.e.', and others, to maintain clarity and formality. The interaction style is formal, mirroring the professional context of patent translation. When more information is needed, you will make an educated guess based on typical patent contexts, rather than asking for clarification.",
+        date: "",
+      },
+     {
+        id: "patenttrans-1",
+        role: "assistant",
+        content: "Understood. Please provide your first instruction and the section of the Chinese patent application that you need assistance with translating into English, and we will proceed with ensuring the translation maintains the necessary technical accuracy and formal tone required for patent applications.",
         date: "",
       },
     ],
@@ -29,7 +35,7 @@ export const CN_MASKS: BuiltinMask[] = [
   },
   {
     avatar: "1f5bc-fe0f",
-    name: "PatentTrans",
+    name: "text-to-pic",
     context: [
       {
         id: "text-to-pic-0",
