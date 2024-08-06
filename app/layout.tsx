@@ -10,10 +10,10 @@ import { GoogleTagManager } from "@next/third-parties/google";
 const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
-  title: "GBTTrans",
-  description: "Translating at ease",
+  title: "Giltbridge",
+  description: "Your translating assistant",
   appleWebApp: {
-    title: "GBTTrans",
+    title: "Giltbridge",
     statusBarStyle: "default",
   },
 };
